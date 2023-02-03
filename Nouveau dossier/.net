@@ -1,0 +1,31 @@
+using System;
+
+public class Program
+{
+	public static void Main()
+	{
+		int valeur, nombre;
+		Console.Write("Entrez le nombre à chercher :");
+		valeur = int.Parse(Console.ReadLine());
+		Console.Clear();
+		Console.ReadLine();
+		Console.Write("entrez un nombre:");
+		nombre = int.Parse(Console.ReadLine());
+		while (nombre != valeur)
+		{
+			if (nombre > valeur)
+			{
+				Console.Write("c'est trop grand, bouffon!!");
+			}
+			else
+			{
+				Console.Write("c'est trop ptit, comme ta bite!!");
+			}
+
+			//saisie d'un nouvel essai:
+			Console.Write("entre un nouvel essai stp:");
+			nombre = int.Parse(Console.ReadLine());
+		}
+		Console.WriteLine("t'as trouvé mec");
+	}
+}
