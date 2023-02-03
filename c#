@@ -21,6 +21,11 @@ public class Program
 			{
 				Console.Write("c'est trop ptit, comme ta bite!!");
 			}
+				if (valeur = nombre-2)
+			{
+			Console.Write("tu te rapproche gamin ...");
+			Console.Readline();
+			}
 
 			//saisie d'un nouvel essai:
 			Console.Write("entre un nouvel essai stp:");
